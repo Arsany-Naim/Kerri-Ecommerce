@@ -1,0 +1,41 @@
+/* page header */
+#page-header{
+    background-color: #F3F2EE;
+    height: 20vh;
+    padding-left: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page-header a{
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+#page-header span{
+    color: rgb(183, 183, 183);
+}
+
+
+/* pagination */
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: var(--violet);
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
